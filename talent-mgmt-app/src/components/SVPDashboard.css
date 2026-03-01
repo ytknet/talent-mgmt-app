@@ -1,0 +1,117 @@
+.dashboard-container {
+  padding: 48px 32px;
+  background: #ffffff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Helvetica Neue', 'Yu Gothic', YuGothic, sans-serif;
+}
+
+.dashboard-header {
+  text-align: left;
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border-bottom: 2px solid #1F8FCF;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dashboard-title {
+  margin: 0 0 12px 0;
+  font-size: 44px;
+  font-weight: 800;
+  color: #1a1a1a;
+  letter-spacing: -1px;
+}
+
+.dashboard-subtitle {
+  margin: 0;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.legend {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  margin-bottom: 48px;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-internal {
+  background-color: #1F8FCF;
+  color: #ffffff;
+  border: none;
+}
+
+.badge-external {
+  background-color: #F2C94C;
+  color: #1a1a1a;
+  border: none;
+}
+
+.legend-text {
+  font-size: 13px;
+  color: #666666;
+  font-weight: 500;
+}
+
+.cards-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 24px 16px;
+  }
+
+  .dashboard-header {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+  }
+
+  .dashboard-title {
+    font-size: 32px;
+  }
+
+  .dashboard-subtitle {
+    font-size: 14px;
+  }
+
+  .legend {
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

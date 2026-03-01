@@ -1,0 +1,136 @@
+{
+  "svps": [
+    {
+      "id": 1,
+      "name": "Mark",
+      "position": "Senior Vice President",
+      "successors": [
+        {
+          "name": "takanobu kuboki",
+          "type": "internal",
+          "yearsExp": 15,
+          "id": 104
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Shuji",
+      "position": "Senior Vice President",
+      "successors": [
+        {
+          "id": 202,
+          "name": "Yuki Yamamoto",
+          "type": "external",
+          "yearsExp": 9
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sayaka",
+      "position": "Senior Vice President",
+      "successors": [
+        {
+          "id": 302,
+          "name": "Lisa Anderson",
+          "type": "internal",
+          "yearsExp": 8
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "logId": 1772348580696,
+      "svpId": 1,
+      "svpName": "Mark",
+      "successor": {
+        "id": 102,
+        "name": "Sarah Johnson",
+        "type": "internal",
+        "yearsExp": 6
+      },
+      "removedAt": "2026-03-01T07:03:00.696Z",
+      "reason": "SSE notify"
+    },
+    {
+      "logId": 1772348694658,
+      "svpId": 3,
+      "svpName": "Sayaka",
+      "successor": {
+        "id": 301,
+        "name": "Emma Davis",
+        "type": "external",
+        "yearsExp": 11
+      },
+      "removedAt": "2026-03-01T07:04:54.658Z",
+      "reason": "sse test2"
+    },
+    {
+      "logId": 1772348847482,
+      "svpId": 3,
+      "svpName": "Sayaka",
+      "successor": {
+        "id": 303,
+        "name": "Nicole Martinez",
+        "type": "external",
+        "yearsExp": 7
+      },
+      "removedAt": "2026-03-01T07:07:27.482Z",
+      "reason": "removed via API"
+    },
+    {
+      "logId": 1772349212859,
+      "svpId": 2,
+      "svpName": "Shuji",
+      "successor": {
+        "id": 203,
+        "name": "Akira Suzuki",
+        "type": "internal",
+        "yearsExp": 5
+      },
+      "removedAt": "2026-03-01T07:13:32.859Z",
+      "reason": "removed via API"
+    },
+    {
+      "logId": 1772350338977,
+      "svpId": 1,
+      "svpName": "Mark",
+      "successor": {
+        "id": 101,
+        "name": "John Smith",
+        "type": "internal",
+        "yearsExp": 8
+      },
+      "removedAt": "2026-03-01T07:32:18.977Z",
+      "reason": "removed via API"
+    },
+    {
+      "logId": 1772350592373,
+      "svpId": 1,
+      "svpName": "Mark",
+      "successor": {
+        "name": "takaya ishiguro",
+        "type": "external",
+        "yearsExp": 3,
+        "id": 105
+      },
+      "removedAt": "2026-03-01T07:36:32.373Z",
+      "reason": "removed via API"
+    },
+    {
+      "logId": 1772350900039,
+      "svpId": 2,
+      "svpName": "Shuji",
+      "successor": {
+        "name": "nozomi watanabe",
+        "type": "internal",
+        "yearsExp": 12,
+        "id": 204
+      },
+      "removedAt": "2026-03-01T07:41:40.039Z",
+      "reason": "removed via API"
+    }
+  ]
+}

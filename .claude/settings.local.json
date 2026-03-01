@@ -1,0 +1,44 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "excludedCommands": [
+      "git"
+    ]
+  },
+  "permissions": {
+    "deny": [
+      "NotebookEdit",
+      "NotebookRead",
+      "Bash(git add .)",
+      "Bash(git add -A)",
+      "Bash(git push -f *)",
+      "Bash(git push --force *)",
+      "Bash(git reset --hard *)",
+      "Bash(git checkout .)",
+      "Bash(git clean -f *)",
+      "Bash(git -C *)",
+      "Bash(npm publish *)",
+      "Bash(yarn publish *)",
+      "Bash(pnpm publish *)",
+      "Bash(*deploy*)",
+      "Bash(terraform apply *)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./.dev.vars)",
+      "Edit(./.env)",
+      "Edit(./.env.*)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Read(~/.config/gcloud/**)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ],
+    "allow": []
+  }
+}

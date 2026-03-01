@@ -1,0 +1,23 @@
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  box-shadow: none;
+}
+
+.badge-internal {
+  background-color: #1F8FCF;
+  color: #ffffff;
+  border: none;
+}
+
+.badge-external {
+  background-color: #F2C94C;
+  color: #1a1a1a;
+  border: none;
+}
