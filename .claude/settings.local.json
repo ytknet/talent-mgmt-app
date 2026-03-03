@@ -1,12 +1,8 @@
 {
-  "sandbox": {
-    "enabled": true,
-    "autoAllowBashIfSandboxed": true,
-    "excludedCommands": [
-      "git"
-    ]
-  },
   "permissions": {
+    "allow": [
+      "mcp__notion__notion-query-meeting-notes"
+    ],
     "deny": [
       "NotebookEdit",
       "NotebookRead",
@@ -38,7 +34,13 @@
       "Bash(tail *)",
       "Bash(curl *)",
       "Bash(wget *)"
-    ],
-    "allow": []
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "excludedCommands": [
+      "git"
+    ]
   }
 }
